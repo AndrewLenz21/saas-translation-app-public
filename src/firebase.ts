@@ -5,12 +5,12 @@ import { getFunctions } from 'firebase/functions';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyCBwT4aG92TcR1uEoSUxizdkBX-z08lReg',
-  authDomain: 'saas-translator-app-f089b.firebaseapp.com',
-  projectId: 'saas-translator-app-f089b',
-  storageBucket: 'saas-translator-app-f089b.appspot.com',
-  messagingSenderId: '214941443254',
-  appId: '1:214941443254:web:c18d58c0c9e3255937f217',
+  apiKey: process.env.FIREBASE_API_KEY,
+  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.FIREBASE_PROJECT_ID,
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.FIREBASE_SENDER_ID,
+  appId: process.env.FIREBASE_API_ID,
 };
 
 // set application
