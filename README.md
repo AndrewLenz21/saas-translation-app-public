@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## SAAS Traslator App
+![saas-traslator-app-mockup](https://github.com/AndrewLenz21/GPT-clone-js/assets/124147096/180ed93f-d13e-41ae-9731-03147fc7db22)
 
-## Getting Started
+### Talk to anyone in any language
+![got-clone-example](https://github.com/AndrewLenz21/GPT-clone-js/assets/124147096/2e531b84-7ffe-44d6-a663-a6ec5715848a)
 
-First, run the development server:
-
-```bash
+## To start project
+``` cmd
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+### Our dependencies:
+- ShadCN
+- NexthAuth
+- Firebase
+- Stripe
+- Zustand
+- Uuid
+- React firebase hooks
+- Encoding
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Credentials
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Create your credentials on `Google Firebase` and `Stripe`. And set it up on `.env/local`
+Except or file `firebase.ts` put directly your configuration from firebase console.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+### Try
+Go to [Translator App](https://saas-translator-app-teal.vercel.app)
+Please do not use your real credit card, use the test one:
+ `4242 4242 4242 4242` `42/42` `424`
+        
+Thank you
