@@ -24,9 +24,5 @@ Create your credentials on `Google Firebase` and `Stripe`. And set it up on `.en
 Except or file `firebase.ts` put directly your configuration from firebase console.
 
 ---
-### Try
-Go to [Translator App](https://saas-translator-app-teal.vercel.app)
-Please do not use your real credit card, use the test one:
- `4242 4242 4242 4242` `42/42` `424`
         
 Thank you
