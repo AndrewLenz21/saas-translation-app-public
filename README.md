@@ -21,7 +21,7 @@ npm run dev
 ### Credentials
 
 Create your credentials on `Google Firebase` and `Stripe`. And set it up on `.env/local`
-Except or file `firebase.ts` put directly your configuration from firebase console.
+Except on file `firebase.ts` put directly your configuration from firebase console.
 
 ---
         
